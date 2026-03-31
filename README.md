@@ -11,10 +11,10 @@ Este proyecto corresponde a la Práctica Formativa Obligatoria 1 (TP individual)
 - [x] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.
 
 ### Repositorio y Publicación
-- [ ] Repositorio en GitHub creado.
-- [ ] Proyecto subido al repositorio.
-- [ ] Proyecto publicado utilizando GitHub Pages.
-- [ ] En el "README.md" se indica la URL de GitHub Pages.
+- [x] Repositorio en GitHub creado.
+- [x] Proyecto subido al repositorio.
+- [x] Proyecto publicado utilizando GitHub Pages.
+- [x] En el "README.md" se indica la URL de GitHub Pages.
 - URL de Github: https://github.com/EduMMorenolp/PFO1
 - URL de GitHub Pages: https://edummorenolp.github.io/PFO1/
 
