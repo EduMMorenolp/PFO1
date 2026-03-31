@@ -15,8 +15,8 @@ Este proyecto corresponde a la Práctica Formativa Obligatoria 1 (TP individual)
 - [ ] Proyecto subido al repositorio.
 - [ ] Proyecto publicado utilizando GitHub Pages.
 - [ ] En el "README.md" se indica la URL de GitHub Pages.
-- URL de GitHub Pages: pendiente
-- URL de Vercel: pendiente
+- URL de Github: 
+- URL de GitHub Pages: 
 
 ### Uso de Google Fonts
 - [x] Enlace a Google Fonts incluido en la sección "head" del HTML.
