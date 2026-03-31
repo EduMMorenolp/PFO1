@@ -60,3 +60,11 @@ Este proyecto corresponde a la Práctica Formativa Obligatoria 1 (TP individual)
 - [x] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
 - [x] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en las imágenes).
 - [x] Se añadieron comentarios adicionales donde se describen decisiones de diseño o la lógica de implementación.
+
+### Herramienta Utilizada para Desarrollo 
+
+Para el desarrollo de este TP utilice GPT-5.3-Codex con GitHub Copilot dentro del IDE Visual Studio Code.
+
+Esta herramienta me permitio avanzar con mayor velocidad y lograr una implementacion rapida de los requerimientos solicitados en la PFO1.
+
+- URL de mi landing real (agregada en index): https://edummorenolp.github.io/LandingPageSimple/
