@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio Personal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Portafolio de Eduardo Moreno</h1>
+      <p class="tagline">Desarrollo soluciones web claras, accesibles y orientadas a resultados.</p>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Navegacion principal">
+    <div class="container nav-wrapper">
+      <a href="#sobre-mi">Sobre mi</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="sobre-mi" class="section container">
+      <h2>Sobre mi</h2>
+      <div class="about-grid">
+        <img
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80"
+          alt="Persona trabajando en su computadora en un entorno creativo"
+        >
+        <p>
+          Soy estudiante de desarrollo de software y me apasiona crear experiencias web que combinen funcionalidad,
+          buen diseno y una navegacion intuitiva. Disfruto aprender nuevas tecnologias, resolver problemas reales y
+          transformar ideas en productos digitales utiles. Mi mision como desarrollador es construir sitios que aporten
+          valor, sean accesibles para todas las personas y mantengan un alto estandar de calidad.
+        </p>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section container">
+      <h2>Proyectos</h2>
+      <div id="tarjetas" class="cards-grid">
+        <article class="card">
+          <img
+            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80"
+            alt="Codigo fuente mostrado en pantalla"
+          >
+          <div class="card-content">
+            <h3>Landing para Emprendimiento</h3>
+            <p>
+              Diseno y maquetado de una pagina comercial con enfoque en conversion, accesibilidad y velocidad de carga.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img
+            src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80"
+            alt="Equipo colaborando en una mesa de trabajo"
+          >
+          <div class="card-content">
+            <h3>Sitio Institucional</h3>
+            <p>
+              Desarrollo de un sitio informativo responsivo con estructura semantica, formulario de contacto y estilo personalizado.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section container">
+      <h2>Habilidades y Objetivos</h2>
+      <table class="skills-table">
+        <thead>
+          <tr>
+            <th>Categoria</th>
+            <th>Detalle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tecnologias que domino</td>
+            <td>HTML, CSS, Git y maquetado responsivo.</td>
+          </tr>
+          <tr>
+            <td>Tecnologias que deseo aprender</td>
+            <td>JavaScript avanzado, React y testing de interfaces.</td>
+          </tr>
+          <tr>
+            <td>Hobbies</td>
+            <td>Inteligencia Artificial, Juegos RPG y lectura sobre Tecnologia.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contacto" class="section container">
+      <h2>Contacto</h2>
+      <form class="contact-form" action="#" method="post">
+        <div class="form-row">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-row">
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" name="apellido" required>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-row">
+          <label for="telefono">Telefono</label>
+          <input type="tel" id="telefono" name="telefono" required>
+        </div>
+
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+
+    <section id="peliculas" class="section container">
+      <h2>Mis 3 peliculas favoritas</h2>
+      <div class="movies-grid">
+        <article class="movie-card">
+          <img
+            src="https://static.wikia.nocookie.net/doblaje/images/1/11/Temblores.png/revision/latest?cb=20171019001311&path-prefix=es"
+            alt="Poster oficial de la pelicula Temblores"
+          >
+          <h3>Temblores (Tremors, 1990)</h3>
+          <p>Una joya del cine de serie B que mezcla terror y comedia. En Perfeccion, Nevada, unos gusanos gigantes subterraneos llamados Graboids atacan guiandose por las vibraciones del suelo.</p>
+        </article>
+
+        <article class="movie-card">
+          <img
+            src="https://play-lh.googleusercontent.com/F4zzqbLEgxjbHhCWM-NGfHR_cN1ABRGHTlDZd3iUTs1CjifKhRMjQVCSIwtrwGCKrnBg"
+            alt="Poster oficial de la pelicula Idiocracia"
+          >
+          <h3>Idiocracia (Idiocracy, 2006)</h3>
+          <p>Dirigida por Mike Judge, paso de largo en su estreno y termino como pelicula de culto. Un hombre comun despierta 500 anos en el futuro y descubre que se volvio la persona mas inteligente del planeta.</p>
+        </article>
+
+        <article class="movie-card">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMTkxZmMxODMtODBkYy00MTg0LWI2MjctMTQzNmRiMDY0OTZkXkEyXkFqcGc@._V1_.jpg"
+            alt="Poster oficial de la pelicula Blues Brothers 2000"
+          >
+          <h3>Blues Brothers 2000 (1998)</h3>
+          <p>Elwood Blues sale de la carcel y vuelve a reunir la banda con nuevos companeros. Lo mejor es su musica, con leyendas como B.B. King, Eric Clapton y Aretha Franklin en un final inolvidable.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>Gracias por visitar mi portafolio.</p>
+      <div class="social-links">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:contacto@ejemplo.com">Email</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
