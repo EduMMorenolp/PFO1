@@ -2,6 +2,9 @@
 
 Este proyecto corresponde a la Práctica Formativa Obligatoria 1 (TP individual) de la materia Desarrollo de Sistemas Web. Se desarrolló una landing page de portafolio personal utilizando HTML y CSS, con estructura semántica, diseño responsivo, tipografía de Google Fonts y componentes visuales personalizados.
 
+Alumno : Eduardo M Moreno
+Comision : D
+
 ## Checklist - Práctica Formativa Obligatoria 1
 
 ### Estructura del Proyecto
